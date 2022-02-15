@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    font-family: Chirp,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    background-image: url('https://cdn.cms-twdigitalassets.com/content/dam/about-twitter/en/home/home-bg-texture1.jpg.twimg.768.jpg');
+}
+header{
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+}
+.logo-conatiner{
+    display: flex;
+    flex:0.6;
+    align-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+    color:  #14171a;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+.logo-conatiner > h3:hover{
+    cursor: auto;
+}
+.content-conatiner{
+    display: flex;
+    flex:0.9;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-size: 20px;
+}
+summary{
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #0f1419;;
+}
+summary:hover {
+  
+    text-decoration: underline;
+   
+}
+.list-items{
+    list-style-type: none;
+    font-size: 15px;
+    color:  #14171a;
+
+}
+.twitter-btn-color{
+    border: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 50px;
+    width: 200px;
+    border: 2px solid  #cbcdce; ;
+    border-top-right-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #fff;
+    color:  #14171a;
+    font-size: 14px;
+    
+}
+.twitter-btn-color:hover{
+    border: 2px solid rgb(146, 145, 145);
+}
+.section1,.section2{
+  
+    font-size: 55px;
+    letter-spacing: -1px;
+    line-height: 64px;
+    text-align: left;
+    font-weight: 400;
+    color: #000;
+    margin: 60px 0 0 150px;
+    padding: 30px;
+    width: 65%;
+    height: 100vh;
+}
+.twitter-btn{
+    border: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 50px;
+    width: 200px;
+    border-top-right-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #14171a;
+    color: #fff;
+    font-size: 18px;
+}
+.twitter-btn:hover{
+    background-color:#3f4347; 
+}
+.section7{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image:url("https://cdn.cms-twdigitalassets.com/content/dam/about-twitter/en/home/layered-tweet-cards/tweet-1-truth-desktop.jpg"),url("https://cdn.cms-twdigitalassets.com/content/dam/about-twitter/en/home/layered-tweet-cards/tweet-2-cat-desktop.jpg.twimg.1280.jpg"),url("https://cdn.cms-twdigitalassets.com/content/dam/about-twitter/en/home/layered-tweet-cards/tweet3-bacon-960x1200.jpg.twimg.1280.jpg");
+    background-position: left, center, right;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: contain;
+}
+.tweet-box1{
+    height: 400px;
+    width: 350px;
+    margin: 100px 0 0 20px;
+    background-color: #fff;
+    padding: 20px;
+  
+}
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.name{
+    cursor: pointer;
+   color: #14171a;
+   
+}
+.name:hover{
+    text-decoration: underline;
+}
+.id{
+    color: #637888;
+}
+.status1{
+    color: #14171a;
+
+    text-align: left;
+    display: block;
+    font-size: 30px;
+    margin-top: 20px;
+    width: auto;
+}
+.status1:hover{
+    cursor: pointer;
+}
+.time{
+    margin-top: 70px;
+    color: #637888;
+}
+.btn{
+    display: flex;
+    justify-content:space-evenly;
+}
+.command,.retweet,.like{
+    border: none;
+    margin-top: 100px;
+    height: 50px;
+    width:  50px;
+    padding: 10px;
+    border-radius: 100%;
+    text-align: center;
+    color: #637888;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+.command:hover{
+    color: rgb(43, 201, 174);
+}
+.retweet:hover{
+    color: rgb(81, 194, 81);
+}
+.like:hover{
+    color: rgb(173, 55, 75);
+
+}
+.section2 p{
+    width: 100%;
+    font-size: 20px;
+    color: #314351;;
+    letter-spacing: -1.3px;
+}
+.section2{
+    
+    letter-spacing: 1.2px;
+}
+.btn1{
+    display: flex;
+    align-content: space-around;
+    justify-content: left;
+    gap: 20px;
+
+}
+.btn-items{
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    color:#14171a;
+    font-weight: 700;
+    padding: 16px 14px;
+    cursor: pointer;
+}
+.btn-items:hover{
+  background-color: rgb(238, 226, 226);
+}
+
+.section3{
+    background-image: url("https://cdn.cms-twdigitalassets.com/content/dam/about-twitter/en/home/home-jumbo-desktop.jpg.twimg.2560.jpg");
+    background-position: center; 
+    background-size: cover;
+    height: 100vh;
+}
+.section3 .tweet-box1{
+    width: 60%;
+}
+.section4{
+    font-family: Chirp Display,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    font-size: 64px;
+    letter-spacing: 1.5px;
+    line-height: 80px;
+}
+.section4 > p{
+    color: #14171a;
+    text-align: justify;
+    line-height: normal;
+    width: 700px;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+}
+.footer-container{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color: #000;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+    gap: 50px;
+
+}
+.footer-item{
+    list-style-type: none;
+}
+.footer-item li{
+    padding: 5px;
+}
+.footer-item:hover li,.footer-item:hover div{
+    color: #067acc;
+}
+.footer-item div{
+    margin-top: 100px;
+}
+.footer-item summary{
+    color: #fff;
+    list-style-type: none;
+    font-size: 20px;
+}
